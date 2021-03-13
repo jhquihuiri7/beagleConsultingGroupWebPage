@@ -1,0 +1,80 @@
+html{
+    font-size: 100%;
+}
+footer{
+    position: relative;
+}
+#separator {
+    position: relative;
+    height: 1px;
+    width: 80%;
+    background-color: rgba(3,5,6,0.25);
+    left: 10%;
+    margin-top: 50px;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.socialDiv {
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px;
+}
+
+.socialDiv a{
+    height: 100%;
+    width: 100%;
+}
+.socialDiv a img {
+    height: 100%;
+
+}
+.derechos{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.derechos p{
+    font-family: arial;
+    font-size: 0.7rem;
+
+}
+.menufooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menufooter li{
+    list-style: none;
+    margin: 10px 0px;
+
+}
+.menufooter li a{
+    padding: 5px;
+    color: grey;
+    text-decoration: none;
+}
+.menufooter li a:hover{
+    color:red;
+}
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+    .menufooter{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menufooter li{
+        list-style: none;
+        margin: 10px 2%;
+
+    }
+}
+@media screen and (min-width: 767px){
+
+}
+@media screen and (min-width: 950px){
+}

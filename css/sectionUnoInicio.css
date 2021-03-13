@@ -1,0 +1,39 @@
+
+#inicio_section_bienvenida div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    margin: 50px 0px 50px 0px;
+}
+#inicio_section_bienvenida div h3{
+    margin: 5px;
+    font-size: 2rem
+}
+#inicio_section_bienvenida div p{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+}
+#inicio_section_bienvenida div a {
+    text-decoration: none;
+}
+#inicio_section_bienvenida div a #section_uno_button {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0px;
+    background-color: #0D47A1 ;
+    padding: 10px 50px 10px 50px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.5);
+}
+
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 767px){
+}
+@media screen and (min-width: 950px){
+}

@@ -1,0 +1,51 @@
+#inicio_section_alianzas_clientes {
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+}
+/*ALIANZAS ESTRATEGICAS*/
+
+.alianzas_clientes {
+    position: relative;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+}
+
+.alianzas_clientes_title {
+    font-size: 1.8rem;
+    height: 60px;
+    /*background-color: rgba(101,58,137, 1);*/
+    width: 70%;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128,0.5);
+}
+.alianzas_clientes_logo {
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 60px 0px;
+
+}
+.alianzas_clientes div figure{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0px 5% 0px 5%;
+}
+.alianzas_clientes div figure img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 767px){
+
+}
+@media screen and (min-width: 950px){
+
+}

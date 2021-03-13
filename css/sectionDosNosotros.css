@@ -1,0 +1,73 @@
+#section_dos_nosotros{
+    position: relative;
+    width: 100%;
+}
+
+.texto_setion_dos_nosotros {
+    position: relative;
+    width: 80%;
+    padding: 0px 10% 0px 10%;
+    display: block;
+}
+
+.texto_setion_elegirnos_title_principal {
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128,0.7);
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+}
+.texto_setion_elegirnos_title{
+    margin: 30px 0px 30px 0px;
+}
+.texto_setion_elegirnos_title div {
+    padding: 30px 0px 0px 0px;
+}
+.texto_setion_elegirnos_title_fc {
+    font-size: 1.3rem;
+}
+.texto_setion_elegirnos_title_sc {
+    font-size: 16px;
+    line-height: 25px;
+    color: #505050;
+}
+
+
+/*TEXTO SECTION IR MAS ALLA*/
+#texto_setion_contactanos_button {
+    text-decoration: none;
+    color: white;
+}
+#texto_setion_contactanos_button div {
+    font-size: 20px;
+    background-color: #0D47A1 ;
+    padding: 10px 30px 10px 30px;
+    margin-top: 40px;
+    border-radius: 40px;
+    width: 150px;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 767px){
+    #section_dos_nosotros {
+        width: 80%;
+        padding: 0px 10% 0px 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .texto_setion_dos_nosotros {
+        padding: 0px;
+    }
+    #texto_setion_elegirnos{
+        width: 60%;
+    }
+    #texto_setion_irmasalla{
+        width: 35%;
+        top: 85px;
+    }
+}
+@media screen and (min-width: 950px){
+}

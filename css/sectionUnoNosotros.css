@@ -1,0 +1,68 @@
+/*SECTION UNO*/
+#section_uno_nosotros {
+    width: 80%;
+    margin: 100px auto 40px auto;
+}
+
+#section_uno_nosotros div{
+    width: 100%;
+    line-height: 25px;
+}
+
+#section_uno_nosotros div h2{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    border-bottom: grey solid 1px;
+}
+.nosotros_presentation {
+    display: block;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    color: #505050;
+}
+.nosotros_presentation figure{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.nosotros_presentation figure img{
+    width: 100%;
+}
+
+@media screen and (min-width: 480px){
+    #section_uno_nosotros h2{
+        font-size: 2.6rem;
+    }
+}
+@media screen and (min-width: 600px){
+    .nosotros_presentation {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .nosotros_presentation figure{
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .nosotros_presentation div p{
+        padding-left: 5%;
+    }
+}
+@media screen and (min-width: 767px){
+
+    .nosotros_presentation figure{
+        width: 90%;
+    }
+
+    #section_uno_nosotros h2{
+        font-size: 2.8rem;
+    }
+
+}
+@media screen and (min-width: 950px){
+    #section_uno_nosotros h2{
+        font-size: 3rem;
+    }
+}
+

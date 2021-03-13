@@ -1,0 +1,52 @@
+#section_tres_nosotros {
+    width: 80%;
+    margin: 50px 0px 100px 0px;
+    padding: 0px 10% 0px 10%;
+    font-size: 1.6rem;
+}
+.mision_vision {
+    width: 100%;
+    margin-top: 50px;
+}
+.description_mision_vision{
+    margin-top: 30px;
+    font-size: 1rem;
+    line-height: 25px;
+    color: #505050;
+}
+.mision_vision figure {
+    width: 100%;
+}
+.mision_vision figure img{
+    width: 100%;
+}
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 767px){
+    .mision_vision {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mision_vision:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    #first_box {
+        width: 65%;
+    }
+
+    #second_box {
+        width: 30%;
+    }
+    #second_box figure{
+        width: 100%;
+    }
+    #second_box figure img{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 950px){
+}

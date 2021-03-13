@@ -1,0 +1,204 @@
+header {
+    position: relative;
+    color: white;
+    height: 100px;
+    background-color: #562D72;
+
+}
+/*NAVBAR*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+/*MENU*/
+.open_close_menu {
+    width: 30px;
+    height: 30px;
+    top: 20px;
+}
+#open_menu {
+    position: relative;
+    left: 20px;
+}
+.open_close_menu figure{
+    height: 100%;
+    margin: 0px;
+    cursor: pointer;
+}
+.open_close_menu figure img{
+    height: 100%;
+}
+
+/*LOGO*/
+#logo {
+    position: relative;
+    width: 290px;
+    height: 60px;
+    top: 20px;
+    /*background-color: blue;*/
+}
+#logo figure{
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    line-height: 60px;
+}
+#logo figure img{
+    height: 100%;
+    width: 100%;
+}
+#logo div {
+    position: relative;
+    bottom: 3px;
+}
+#logo div h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+#logo div h3 {
+    margin: 0px;
+    font-size: 16px;
+}
+#logo > * {
+    display: inline-block;
+}
+
+/*CARD*/
+#card_menu {
+    position: absolute;
+    display: none;
+    padding-left: 0px;
+    width: 100%;
+    background-color: rgba(43,43,43,0.9);
+    color: #2b2b2b;
+    z-index: 99;
+}
+
+#card_menu #close_menu {
+    position: absolute;
+    right: 20px;
+}
+
+#card_menu ul {
+    margin-top: 50px;
+}
+#card_menu ul li{
+    position: relative;
+    left: -20px;
+    margin: 0px;
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+#card_menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#card_menu ul li a:hover{
+    color: red;
+}
+
+/*SECOND HEADER*/
+#secondHeader {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#secondHeader #secondHeader_principal {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+#secondHeader #secondHeader_secundario {
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+}
+#secondHeader a {
+    text-decoration: none;
+    color: white;
+}
+#secondHeader a #secondHeader_button {
+    font-size: 20px;
+    background-color: #0D47A1 ;
+    padding: 10px 50px 10px 50px;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 767px){
+    #logo {
+        margin-left: 5%;
+    }
+    #open_menu {
+        display: none;
+    }
+    #card_menu {
+        position: relative;
+        display: block;
+        height: 60px;
+        width: 55%;
+        background-color: rgba(1,1,1,0);
+
+    }
+    #card_menu #close_menu {
+        display: none;
+    }
+    #card_menu ul{
+        position: relative;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        top: 20px;
+        /*background-color: red;*/
+    }
+    #card_menu ul li{
+        left: 0;
+        width: 60px;
+        display: inline-block;
+        border-bottom: none;
+        /*background-color: blue;*/
+    }
+    #card_menu ul li a{
+        position: relative;
+        top: 20px;
+        justify-content: center;
+        margin: 0px;
+    }
+    #space_navbar {
+        /*background-color: green;*/
+        height: 60px;
+        width: 1%;
+    }
+    #secondHeader {
+        margin-right: 15%;
+        align-items: flex-end;
+    }
+    #secondHeader #secondHeader_principal{
+        text-align: right;
+    }
+
+}
+@media screen and (min-width: 950px){
+    header {
+        /*background-color: black;*/
+    }
+    #logo {
+        margin-left: 7%;
+    }
+    #card_menu ul li{
+        width: 100px;
+    }
+
+}
