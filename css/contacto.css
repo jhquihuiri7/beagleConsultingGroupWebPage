@@ -1,0 +1,56 @@
+.titulo {
+    margin-top: 75px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo h3 {
+    font-size: 2rem;
+}
+
+
+
+/* Set the size of the div element that contains the map */
+#form {
+    width: 100%;
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    margin-top: 50px;
+
+}
+#section_dos_contacto {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    background-color: yellow;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+
+}
+@media screen and (min-width: 767px){
+ #section_uno_contacto {
+     display: flex;
+     justify-content: space-between;
+ }
+    #form {
+        width: 90%;
+        margin-right: 10%;
+    }
+    #map {
+        width: 60%;
+
+    }
+}
+
+@media screen and (min-width: 950px){
+}

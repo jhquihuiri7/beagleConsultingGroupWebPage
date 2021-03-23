@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/inicioStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/navBarGeneral.css">
+    <link rel="stylesheet" type="text/css" href="css/footerStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+</head>
+<body>
+{{template "navBarGeneral"}}
+<div class="titulo">
+    <h3>Contáctanos</h3>
+</div>
+<section id="section_uno_contacto">
+    <div id="form">
+        <form enctype="multipart/form-data">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nombre</label>
+                    <input type="name" class="form-control" id="name" name="name" placeholder="Ingrea tu nombre">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="apellido" class="form-control" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Mail</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Ingrese su email">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="countrycod">Cod. País</label>
+                    <select id="countrycod" name="countrycod" class="form-control">
+                        <option selected>+593</option>
+                        <option>+33</option>
+                        <option>+56</option>
+                        <option>+395</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="phone">Teléfono</label>
+                    <input type="text" class="form-control" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textArea">Consulta</label>
+                <textarea class="form-control" id="textArea" name="textArea" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <div id="map"></div>
+</section>
+<section id="section_dos_contacto">
+
+</section>
+{{template "footer"}}
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/navbarGeneral.js"></script>
+<script src="js/sectionDosContacto.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/inicioScrollAnimations.js"></script>
+<script src="js/mapa.js"></script>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_o38TyXKVpjP3B6-tcomuLRvtzVTQMeI&callback=initMap&libraries=&v=weekly"
+        async
+></script>
+</body>
+</html>
