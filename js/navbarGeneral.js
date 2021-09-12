@@ -1,12 +1,12 @@
 let divMenu =document.getElementById("card_menu");
 let listMenu = [{
-        item:"Inicio", href: "inicio.html"
+        item:"Inicio", href: "/"
     },{
-        item:"Nosotros", href: "https://es.pornhubpremium.com/premium/login"
+        item:"Nosotros", href: "/nosotros"
     },{
-        item:"Productos", href: "https://es.pornhubpremium.com/premium/login"
+        item:"Productos", href: "/productos"
     },{
-        item:"Servicios", href: "https://es.pornhubpremium.com/premium/login"
+        item:"Servicios", href: "/"
     }];
 
 let ulMenu = document.createElement("ul");

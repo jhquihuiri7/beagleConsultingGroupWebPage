@@ -3,29 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/inicioStyle.css" />
     <link rel="stylesheet" type="text/css" href="css/navBarGeneral.css">
     <link rel="stylesheet" type="text/css" href="css/footerStyle.css">
     <link rel="stylesheet" type="text/css" href="css/contacto.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="css/contactoForm.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 </head>
 <body>
+{{if eq . "ok"}}
+<script>
+    alert("Mensaje enviado correctamente")
+</script>
+{{end}}
+{{if eq . "no"}}
+    <script>
+        alert("Mensaje enviado correctamente")
+    </script>
+{{end}}
 {{template "navBarGeneral"}}
+
 <div class="titulo">
     <h3>Contáctanos</h3>
 </div>
 <section id="section_uno_contacto">
     <div id="form">
-        <form enctype="multipart/form-data">
+        <form enctype="multipart/form-data" method="post">
             <div class="form-row">
-                <div class="form-group col-md-6">
+                <div class="form-group">
                     <label for="name">Nombre</label>
                     <input type="name" class="form-control" id="name" name="name" placeholder="Ingrea tu nombre">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group">
                     <label for="apellido">Apellido</label>
                     <input type="apellido" class="form-control" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
                 </div>
@@ -49,9 +64,9 @@
                     <input type="text" class="form-control" id="phone" name="phone">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group-textArea">
                 <label for="textArea">Consulta</label>
-                <textarea class="form-control" id="textArea" name="textArea" rows="5"></textarea>
+                <textarea class="form-control" id="textArea" name="textArea" rows="5" cols="60%"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>

@@ -1,0 +1,49 @@
+#section_uno_producto{
+	position: relative;
+}
+#producto{
+	position: relative;
+	width: 80%;
+	margin: 5% auto 0 auto;
+}
+.titulo{
+	position: relative;
+	color: red;
+}
+h3{
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+
+}
+.cuadrotrans{
+	position: relative;
+	border-radius:10px;
+	width: 90%;
+	margin:0 0 50px 5%;
+	text-align: center;
+}
+.cajacontenido{
+	position: relative;
+	display: inline-block;
+	margin: 15px 5% 5px 5%;
+	width: 40%;
+
+}
+.cajacontenido h4{
+	position: relative;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.85rem;
+	text-align: center;
+}
+
+@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 767px){
+}
+@media screen and (min-width: 950px){
+
+}

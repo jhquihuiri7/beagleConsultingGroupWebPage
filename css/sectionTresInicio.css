@@ -28,13 +28,20 @@
     margin: 90px 0px 60px 0px;
 
 }
-.alianzas_clientes div figure{
+
+.sub_alianza {
     display: inline-block;
+    margin: 20px 5% 0px 5%;
+}
+.sub_alianza div {
+    display: block;
+}
+.sub_alianza div figure{
+    margin: 0 auto 0 auto;
     width: 150px;
     height: 150px;
-    margin: 0px 5% 0px 5%;
 }
-.alianzas_clientes div figure img{
+.sub_alianza div figure img{
     width: 100%;
     height: 100%;
 }

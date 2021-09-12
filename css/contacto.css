@@ -1,7 +1,6 @@
 .titulo {
     margin-top: 75px;
     width: 100%;
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +9,11 @@
     font-size: 2rem;
 }
 
-
+#section_uno_contacto {
+    background-color: yellow;
+    width: 80%;
+    margin: 50px 10% 50px 10%;
+}
 
 /* Set the size of the div element that contains the map */
 #form {
@@ -21,15 +24,26 @@
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
-    margin-top: 50px;
+    background-color: yellow;
 
 }
 #section_dos_contacto {
-    width: 80%;
+    width: 100%;
     margin: 0 auto 0 auto;
-    background-color: yellow;
+    display: block;
     text-align: center;
-
+}
+#section_dos_contacto div {
+    display: block;
+}
+#icon1 {
+    margin: 0 0 0 0;
+}
+#icon2 {
+    margin: 0 0 0 0;
+}
+#icon3 {
+    margin: 0 0 0 0;
 }
 
 @media screen and (min-width: 480px){
@@ -50,6 +64,19 @@
         width: 60%;
 
     }
+}
+
+#section_dos_contacto div {
+    display: inline-block;
+}
+#icon1 {
+    margin: 0 50px 0 0;
+}
+#icon2 {
+    margin: 0 50px 0 50px;
+}
+#icon3 {
+    margin: 0 0 0 50px;
 }
 
 @media screen and (min-width: 950px){
